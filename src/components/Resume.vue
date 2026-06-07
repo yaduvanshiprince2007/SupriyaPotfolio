@@ -1,6 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import godiamge from '../assets/ganesha_PNG27.png'
+import image from '../assets/image.webp';
 import { useLocale } from '../composables/useLocale'
 
 const { translations } = useLocale()
@@ -105,12 +106,7 @@ const contactEmail = computed(() => translations.value.home.email)
             <div class="flex flex-col items-center">
               <div class="relative overflow-hidden rounded-2xl border-4 border-amber-300/70 shadow-2xl transition duration-300 hover:scale-[1.02]">
                 <div class="flex flex-col items-center justify-center bg-gradient-to-b from-amber-100 to-orange-100 p-8 text-center">
-                  <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="12" cy="8" r="4" stroke="#B45309" stroke-width="1.5" fill="#FEF3C7"/>
-                    <path d="M5 20V19C5 15.1 8.1 12 12 12C15.9 12 19 15.1 19 19V20" stroke="#B45309" stroke-width="1.5" fill="none"/>
-                    <rect x="8" y="14" width="8" height="2" fill="#B45309" fill-opacity="0.6"/>
-                    <path d="M12 8V12M10 10H14" stroke="#B45309" stroke-width="1.2"/>
-                  </svg>
+                  <img :src="image" alt="Decorative Toran" class="animate-bounce-slow">
                   <div class="mt-3 text-sm font-medium text-amber-700">{{ translations.home.careerTag }}</div>
                 </div>
               </div>
