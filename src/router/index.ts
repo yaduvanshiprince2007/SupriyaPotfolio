@@ -4,6 +4,7 @@ import EducationPage from '../pages/EducationPage.vue'
 import FamilyPage from '../pages/FamilyPage.vue'
 import PreferencesPage from '../pages/PreferencesPage.vue'
 import ContactPage from '../pages/ContactPage.vue'
+import { isLoading } from '../composables/useLoading'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -19,6 +20,18 @@ const router = createRouter({
   scrollBehavior() {
     return { top: 0, behavior: 'smooth' }
   }
+})
+
+router.beforeEach((_to, _from, next) => {
+  isLoading.value = true
+  const delay = Math.floor(Math.random() * 2000) + 1
+  setTimeout(() => next(), delay)
+})
+
+router.afterEach(() => {
+  setTimeout(() => {
+    isLoading.value = false
+  }, 100)
 })
 
 export default router

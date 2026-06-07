@@ -1,438 +1,513 @@
 {
-  "defaultLocale": "en",
-  "locales": ["en", "hi"],
-  "translations": {
-    "en": {
-      "nav": {
-        "home": "Home",
-        "education": "Education",
-        "family": "Family",
-        "preferences": "Preferences",
-        "contact": "Contact"
-      },
-      "languageToggle": {
-        "english": "English",
-        "hindi": "Hindi"
-      },
-      "home": {
-        "title": "Marriage Biodata",
-        "tagline": "A graceful educator rooted in tradition yet embracing modernity, seeking a harmonious and respectful life partnership.",
-        "careerTag": "Physics Educator",
-        "introQuote": "Disciplined, warm-hearted, and driven by a love for learning.",
-        "aboutHeading": "About Supriya",
-        "aboutText": "Supriya is a dedicated PGT Physics teacher who finds joy in shaping young minds. Raised in an army background family, she embodies discipline, integrity, and genuine warmth. Her personality reflects simplicity and a positive outlook — she believes in lifelong learning, kindness, and nurturing strong family bonds. While she holds a modern perspective, she deeply respects traditional customs and values. She envisions a marriage built on mutual respect, emotional support, and a harmonious, progressive household.",
-        "careerSummary": "An experienced educator who connects academic concepts to real-world examples, sparking curiosity and a love for learning in every student.",
-        "coreStrengthsLabel": "Core Strengths",
-        "careerSummaryLabel": "Career Summary",
-        "coreStrengths": [
-          "Deep expertise in Physics",
-          "Student-centric teaching approach",
-          "Exceptional communication skills",
-          "Meticulous lesson planning",
-          "Fostering a respectful classroom environment"
-        ],
-        "teachingPhilosophy": "She believes in hands-on learning, encouraging scientific thinking, and empowering students through confidence-building activities.",
-        "partnerQuote": "Seeking a compassionate, educated, and family-oriented partner who honors tradition while embracing growth, mutual understanding, and trust.",
-        "contactNumber": "7800848497",
-        "email": "supriya.biodata@example.com",
-        "sectionAcademic": "Academic Excellence",
-        "sectionAbout": "About & Personality",
-        "sectionFamily": "Family Background",
-        "sectionInterests": "Interests & Passions",
-        "sectionPartner": "Looking For (Partner Expectations)",
-        "footerContactPrompt": "For alliance inquiries, please contact:",
-        "footerWarmRegards": "With warm regards from the Yadav family | Ramgarh Cantt, Jharkhand",
-        "familyReference": "Respected Army Background"
-      },
-      "profile": {
-        "fullName": "Kumari Supriya",
-        "dob": "4th November 1997",
-        "height": "5 Feet (152 cm)",
-        "complexion": "Fair",
-        "religion": "Hindu",
-        "caste": "Yadav",
-        "profession": "PGT Physics Teacher",
-        "experience": "2+ years of teaching experience",
-        "motherTongue": "Hindi",
-        "maritalStatus": "Never Married",
-        "diet": "Vegetarian",
-        "habits": "Non-Smoker & Non-Drinker",
-        "bloodGroup": "B+",
-        "nationality": "Indian",
-        "location": "Ramgarh Cantt, Jharkhand"
-      },
-      "profileLabels": {
-        "dob": "Date of Birth",
-        "age": "Age",
-        "height": "Height",
-        "profession": "Profession",
-        "religionCaste": "Religion & Caste",
-        "location": "Location",
-        "complexion": "Complexion",
-        "dietHabits": "Diet & Habits"
-      },
-      "traits": ["Disciplined", "Compassionate", "Family-Oriented", "Optimistic", "Respectful", "Curious"],
-      "hobbies": [
-        "Reading spiritual and science literature",
-        "Yoga and Meditation",
-        "Listening to classical music",
-        "Journaling and poetry",
-        "Gardening",
-        "Cooking traditional recipes",
-        "Playing Badminton",
-        "Nature walks"
-      ],
-      "education": {
-        "header": "Academic Journey",
-        "subheader": "A distinguished record of academic excellence, professional training, and a commitment to lifelong learning.",
-        "professionalDevelopment": "Professional Development",
-        "professionalDetails": "Committed to continuous skill enhancement through workshops and certifications that elevate teaching effectiveness and student engagement.",
-        "certificatesTitle": "Certifications & Training",
-        "records": [
-          {
-            "degree": "M.Sc. in Physics",
-            "percentage": "62%",
-            "institution": "Vinoba Bhave University",
-            "year": "2019",
-            "details": "Specialized in advanced physics concepts with a focus on theoretical and practical applications."
-          },
-          {
-            "degree": "B.Sc. in Science",
-            "percentage": "75%",
-            "institution": "Vinoba Bhave University",
-            "year": "2017",
-            "details": "Completed a rigorous curriculum in Physics, Mathematics, and Chemistry with strong academic standing."
-          },
-          {
-            "degree": "Bachelor of Education (B.Ed)",
-            "percentage": "80%",
-            "institution": "Vinoba Bhave University",
-            "year": "2021",
-            "details": "Focused on educational psychology, modern teaching methodologies, and effective classroom management."
-          },
-          {
-            "degree": "Intermediate (12th)",
-            "percentage": "60%",
-            "institution": "Army Public School",
-            "year": "2014",
-            "details": "Studied Science stream with a foundation in Physics, Mathematics, and Biology."
-          },
-          {
-            "degree": "Matriculation (10th)",
-            "percentage": "82%",
-            "institution": "Army Public School",
-            "year": "2012",
-            "details": "Achieved high academic performance across sciences, languages, and social studies."
-          }
-        ],
-        "certificates": [
-          "Certified Science Educator",
-          "Workshop on Creative Physics Teaching",
-          "Personality Development and Leadership Training",
-          "ICT-Enabled Classroom Instruction",
-          "First Aid & Child Safety Awareness"
-        ],
-        "achievementsHeader": "Academic Highlights",
-        "achievements": [
-          "Received the Best Teacher Appreciation Certificate from Army Public School",
-          "Led classroom science innovation programs to promote practical learning",
-          "Completed advanced pedagogy training in modern physics instruction"
-        ]
-      },
-      "family": {
-        "header": "Family Background",
-        "subheader": "A nurturing and principled family environment, deeply rooted in army values of love, respect, and integrity.",
-        "labels": {
-          "father": "Father",
-          "mother": "Mother",
-          "siblings": "Siblings",
-          "home": "Family Home",
-          "origin": "Village Origin",
-          "address": "Current Address",
-          "values": "Family Values"
+    "defaultLocale": "en",
+    "locales": [
+        "en",
+        "hi"
+    ],
+    "translations": {
+        "en": {
+            "nav": {
+                "home": "Home",
+                "education": "Education",
+                "family": "Family",
+                "preferences": "Preferences",
+                "contact": "Contact"
+            },
+            "languageToggle": {
+                "english": "English",
+                "hindi": "Hindi"
+            },
+            "home": {
+                "title": "Marriage Biodata",
+                "tagline": "A graceful educator rooted in tradition yet embracing modernity, seeking a harmonious and respectful life partnership.",
+                "careerTag": "Physics Educator",
+                "profileTone": "Simple • Elegant • Devoted",
+                "introQuote": "Disciplined, warm-hearted, and driven by a love for learning.",
+                "aboutHeading": "About Supriya",
+                "aboutText": "Supriya is a dedicated PGT Physics teacher who finds joy in shaping young minds. Raised in an army background family, she embodies discipline, integrity, and genuine warmth. Her personality reflects simplicity and a positive outlook — she believes in lifelong learning, kindness, and nurturing strong family bonds. While she holds a modern perspective, she deeply respects traditional customs and values. She envisions a marriage built on mutual respect, emotional support, and a harmonious, progressive household.",
+                "careerSummary": "An experienced educator who connects academic concepts to real-world examples, sparking curiosity and a love for learning in every student.",
+                "coreStrengthsLabel": "Core Strengths",
+                "careerSummaryLabel": "Career Summary",
+                "coreStrengths": [
+                    "Deep expertise in Physics",
+                    "Student-centric teaching approach",
+                    "Exceptional communication skills",
+                    "Meticulous lesson planning",
+                    "Fostering a respectful classroom environment"
+                ],
+                "teachingPhilosophy": "She believes in hands-on learning, encouraging scientific thinking, and empowering students through confidence-building activities.",
+                "partnerQuote": "Seeking a compassionate, educated, and family-oriented partner who honors tradition while embracing growth, mutual understanding, and trust.",
+                "contactNumber": "+91-7800848497",
+                "email": "supriya94111@gmail.com",
+                "sectionAcademic": "Academic Excellence",
+                "sectionAbout": "About & Personality",
+                "sectionFamily": "Family Background",
+                "sectionInterests": "Interests & Passions",
+                "sectionPartner": "Looking For (Partner Expectations)",
+                "footerContactPrompt": "For alliance inquiries, please contact:",
+                "footerWarmRegards": "With warm regards from the Yadav family",
+                "familyReference": "Respected Army Background"
+            },
+            "profile": {
+                "fullName": "Kumari Supriya",
+                "dob": "4th November 1997",
+                "height": "5 Feet (152 cm)",
+                "complexion": "Fair",
+                "religion": "Hindu",
+                "caste": "Yadav",
+                "profession": "PGT Physics Teacher",
+                "experience": "2+ years of teaching experience",
+                "motherTongue": "Hindi",
+                "maritalStatus": "Never Married",
+                "diet": "Vegetarian",
+                "habits": "Non-Smoker & Non-Drinker",
+                "bloodGroup": "B+",
+                "nationality": "Indian",
+                "location": "Ramgarh Cantt, Jharkhand"
+            },
+            "profileLabels": {
+                "dob": "Date of Birth",
+                "age": "Age",
+                "height": "Height",
+                "profession": "Profession",
+                "religionCaste": "Religion & Caste",
+                "location": "Location",
+                "complexion": "Complexion",
+                "dietHabits": "Diet & Habits"
+            },
+            "traits": [
+                "Disciplined",
+                "Compassionate",
+                "Family-Oriented",
+                "Optimistic",
+                "Respectful",
+                "Curious"
+            ],
+            "hobbies": [
+                "Reading spiritual and science literature",
+                "Yoga and Meditation",
+                "Listening to classical music",
+                "Journaling and poetry",
+                "Gardening",
+                "Cooking traditional recipes",
+                "Playing Badminton",
+                "Nature walks"
+            ],
+            "education": {
+                "header": "Academic Journey",
+                "subheader": "A distinguished record of academic excellence, professional training, and a commitment to lifelong learning.",
+                "professionalDevelopment": "Professional Development",
+                "professionalDetails": "Committed to continuous skill enhancement through workshops and certifications that elevate teaching effectiveness and student engagement.",
+                "certificatesTitle": "Certifications & Training",
+                "records": [
+                    {
+                        "degree": "Bachelor of Education (B.Ed)",
+                        "percentage": "80%",
+                        "institution": "Vinoba Bhave University",
+                        "year": "2021",
+                        "details": "Focused on educational psychology, modern teaching methodologies, and effective classroom management."
+                    },
+                    {
+                        "degree": "M.Sc. in Physics",
+                        "percentage": "62%",
+                        "institution": "Vinoba Bhave University",
+                        "year": "2019",
+                        "details": "Specialized in advanced physics concepts with a focus on theoretical and practical applications."
+                    },
+                    {
+                        "degree": "B.Sc. in Science",
+                        "percentage": "75%",
+                        "institution": "Vinoba Bhave University",
+                        "year": "2017",
+                        "details": "Completed a rigorous curriculum in Physics, Mathematics, and Chemistry with strong academic standing."
+                    },
+                    {
+                        "degree": "Intermediate (12th)",
+                        "percentage": "60%",
+                        "institution": "Army Public School",
+                        "year": "2014",
+                        "details": "Studied Science stream with a foundation in Physics, Mathematics, and Biology."
+                    },
+                    {
+                        "degree": "Matriculation (10th)",
+                        "percentage": "82%",
+                        "institution": "Army Public School",
+                        "year": "2012",
+                        "details": "Achieved high academic performance across sciences, languages, and social studies."
+                    }
+                ],
+                "certificates": [
+                    "Certified Science Educator",
+                    "Workshop on Creative Physics Teaching",
+                    "Personality Development and Leadership Training",
+                    "ICT-Enabled Classroom Instruction",
+                    "First Aid & Child Safety Awareness"
+                ],
+                "achievementsHeader": "Academic Highlights",
+                "achievements": [
+                    "Received the Best Teacher Appreciation Certificate from Army Public School",
+                    "Led classroom science innovation programs to promote practical learning",
+                    "Completed advanced pedagogy training in modern physics instruction"
+                ]
+            },
+            "family": {
+                "header": "Family Background",
+                "subheader": "A nurturing and principled family environment, deeply rooted in army values of love, respect, and integrity.",
+                "labels": {
+                    "father": "Father",
+                    "mother": "Mother",
+                    "siblings": "Siblings",
+                    "home": "Family Home",
+                    "origin": "Village Origin",
+                    "address": "Current Address",
+                    "values": "Family Values"
+                },
+                "details": {
+                    "father": {
+                        "name": "Mr. Sarangdhar Prasad Yadav",
+                        "occupation": "Havildar (Retd.), EME, Indian Army",
+                        "qualities": "Disciplined • Supportive • Responsible"
+                    },
+                    "mother": {
+                        "name": "Mrs. Ganita Yadav",
+                        "occupation": "Homemaker & Social Worker",
+                        "qualities": "Warm • Caring • Community-focused"
+                    },
+                    "siblings": [
+                        "1 Elder Sister (Married)",
+                        "1 Younger Sister",
+                        "1 Younger Brother"
+                    ],
+                    "village": "Shaligrami, Bihar",
+                    "address": "Purimandap, Goalpar, Ramgarh Cantt, Jharkhand - 829122",
+                    "familyValues": [
+                        "Strong family bonds",
+                        "Respect for elders",
+                        "Honesty",
+                        "Cultural traditions",
+                        "Modern outlook"
+                    ],
+                    "homeDescription": "A peaceful, well-connected home that cherishes traditional values, is close to nature, and resides within a secure army community."
+                },
+                "strengthsHeader": "Family Strengths",
+                "strengths": [
+                    "Army-bred values blended with a caring home environment",
+                    "Strong encouragement for education and career pursuits",
+                    "A balanced mix of modern and cultural perspectives",
+                    "A warm and welcoming extended family"
+                ]
+            },
+            "preferences": {
+                "header": "Partner Preferences",
+                "subheader": "A thoughtful partner profile emphasizing respect, personal growth, and shared life values.",
+                "keyPreferences": "Key Preferences",
+                "compatibility": "Lifestyle & Compatibility",
+                "additional": "Seeking a partner who cherishes family values, shared responsibility, and emotional maturity.",
+                "partnerPreferences": [
+                    {
+                        "label": "Age Range",
+                        "value": "Suitable match within 0 to 5 years age difference"
+                    },
+                    {
+                        "label": "Education",
+                        "value": "Graduate / Postgraduate (Engineer / Doctor / Professional)"
+                    },
+                    {
+                        "label": "Profession",
+                        "value": "A stable career in Government, Private, or Entrepreneurial sectors"
+                    },
+                    {
+                        "label": "Location",
+                        "value": "Any, preferably Jharkhand or nearby regions"
+                    },
+                    {
+                        "label": "Family Values",
+                        "value": "Respectful, cultured, and harmonious"
+                    },
+                    {
+                        "label": "Core Traits",
+                        "value": "Honest, caring, supportive, and modern-minded"
+                    }
+                ],
+                "lifestylePreferences": [
+                    "Believes in a balanced home that respects both tradition and growth",
+                    "Supports mutual learning, emotional strength, and open communication",
+                    "Values family gatherings, festivals, and cultural celebrations",
+                    "Maintains a healthy lifestyle — non-smoking, with moderate social habits",
+                    "Open to a partner who brings empathy, consistency, and reliability to the relationship"
+                ]
+            },
+            "contact": {
+                "header": "Contact & Alliance Inquiry",
+                "subheader": "Reach out for marriage alliance discussions, family introductions, or to learn more about the profile.",
+                "call": "Call / WhatsApp",
+                "email": "Email",
+                "location": "Location",
+                "reference": "Family Reference",
+                "bestTime": "Best time to contact",
+                "quickNoteTitle": "A Quick Note",
+                "quickNote": "We deeply value compatibility, mutual respect, and a strong family foundation. We are open to sincere alliance proposals from respectful and supportive families.",
+                "details": {
+                    "phone": "+91-7800848497",
+                    "email": "supriya94111@gmail.com",
+                    "location": "Ramgarh Cantt, Jharkhand",
+                    "reference": "Respected Army Background",
+                    "bestTime": "Morning and early evening hours"
+                },
+                "message": "We appreciate respectful conversations and thoughtful introductions. When reaching out, kindly share your family background and future aspirations."
+            }
         },
-        "details": {
-          "father": {
-            "name": "Mr. Sarangdhar Prasad Yadav",
-            "occupation": "Havildar (Retd.), EME, Indian Army",
-            "qualities": "Disciplined • Supportive • Responsible"
-          },
-          "mother": {
-            "name": "Mrs. Ganita Yadav",
-            "occupation": "Homemaker & Social Worker",
-            "qualities": "Warm • Caring • Community-focused"
-          },
-          "siblings": ["1 Elder Sister (Married)", "1 Younger Sister", "1 Younger Brother"],
-          "village": "Shaligrami, Bihar",
-          "address": "Purimandap, Goalpar, Ramgarh Cantt, Jharkhand - 829122",
-          "familyValues": ["Strong family bonds", "Respect for elders", "Honesty", "Cultural traditions", "Modern outlook"],
-          "homeDescription": "A peaceful, well-connected home that cherishes traditional values, is close to nature, and resides within a secure army community."
-        },
-        "strengthsHeader": "Family Strengths",
-        "strengths": [
-          "Army-bred values blended with a caring home environment",
-          "Strong encouragement for education and career pursuits",
-          "A balanced mix of modern and cultural perspectives",
-          "A warm and welcoming extended family"
-        ]
-      },
-      "preferences": {
-        "header": "Partner Preferences",
-        "subheader": "A thoughtful partner profile emphasizing respect, personal growth, and shared life values.",
-        "keyPreferences": "Key Preferences",
-        "compatibility": "Lifestyle & Compatibility",
-        "additional": "Seeking a partner who cherishes family values, shared responsibility, and emotional maturity.",
-        "partnerPreferences": [
-          { "label": "Age Range", "value": "26 – 32 Years" },
-          { "label": "Education", "value": "Graduate / Postgraduate (Engineer / Doctor / Professional)" },
-          { "label": "Profession", "value": "A stable career in Government, Private, or Entrepreneurial sectors" },
-          { "label": "Location", "value": "Any, preferably Jharkhand or nearby regions" },
-          { "label": "Family Values", "value": "Respectful, cultured, and harmonious" },
-          { "label": "Core Traits", "value": "Honest, caring, supportive, and modern-minded" }
-        ],
-        "lifestylePreferences": [
-          "Believes in a balanced home that respects both tradition and growth",
-          "Supports mutual learning, emotional strength, and open communication",
-          "Values family gatherings, festivals, and cultural celebrations",
-          "Maintains a healthy lifestyle — non-smoking, with moderate social habits",
-          "Open to a partner who brings empathy, consistency, and reliability to the relationship"
-        ]
-      },
-      "contact": {
-        "header": "Contact & Alliance Inquiry",
-        "subheader": "Reach out for marriage alliance discussions, family introductions, or to learn more about the profile.",
-        "call": "Call / WhatsApp",
-        "email": "Email",
-        "location": "Location",
-        "reference": "Family Reference",
-        "bestTime": "Best time to contact",
-        "quickNoteTitle": "A Quick Note",
-        "quickNote": "We deeply value compatibility, mutual respect, and a strong family foundation. We are open to sincere alliance proposals from respectful and supportive families.",
-        "details": {
-          "phone": "7800848497",
-          "email": "supriya.biodata@example.com",
-          "location": "Ramgarh Cantt, Jharkhand",
-          "reference": "Respected Army Background",
-          "bestTime": "Morning and early evening hours"
-        },
-        "message": "We appreciate respectful conversations and thoughtful introductions. When reaching out, kindly share your family background and future aspirations."
-      }
-    },
-    "hi": {
-      "nav": {
-        "home": "मुखपृष्ठ",
-        "education": "शिक्षा",
-        "family": "परिवार",
-        "preferences": "प्राथमिकताएँ",
-        "contact": "संपर्क"
-      },
-      "languageToggle": {
-        "english": "अंग्रेज़ी",
-        "hindi": "हिन्दी"
-      },
-      "home": {
-        "title": "विवाह बायोडाटा",
-        "tagline": "परंपरागत मूल्यों और आधुनिक दृष्टिकोण से युक्त एक स्नेही शिक्षिका, सामंजस्यपूर्ण जीवन-साझेदारी की तलाश में।",
-        "careerTag": "पीजीटी भौतिकी शिक्षिका",
-        "introQuote": "अनुशासित, सौम्य और ज्ञान से प्रेरित।",
-        "aboutHeading": "सुप्रिया के बारे में",
-        "aboutText": "सुप्रिया एक समर्पित पीजीटी भौतिकी शिक्षिका हैं, जिनका लक्ष्य युवा मनों को सही दिशा देना है। सेना पृष्ठभूमि के परिवार में पली-बढ़ी, उनमें अनुशासन, ईमानदारी और अपनापन कूट-कूट कर भरा है। उनका व्यक्तित्व सरलता और सकारात्मक सोच का प्रतीक है। वे आजीवन सीखने, दयालुता और मजबूत पारिवारिक बंधनों में विश्वास रखती हैं। उनका दृष्टिकोण आधुनिक है, परंतु वे पारंपरिक रीति-रिवाजों का गहरा सम्मान करती हैं। वे आपसी सम्मान, भावनात्मक सहयोग और एक सहयोगात्मक, प्रगतिशील जीवन-शैली पर आधारित विवाह की कामना करती हैं।",
-        "careerSummary": "एक अनुभवी शिक्षिका जो शैक्षणिक अवधारणाओं को वास्तविक जीवन के उदाहरणों से जोड़ती है, और हर छात्र में जिज्ञासा व सीखने की ललक पैदा करती है।",
-        "coreStrengthsLabel": "प्रमुख क्षमताएँ",
-        "careerSummaryLabel": "कार्य-सारांश",
-        "coreStrengths": [
-          "भौतिकी में गहन विषय-ज्ञान",
-          "छात्र-केंद्रित शिक्षण शैली",
-          "प्रभावी संवाद कौशल",
-          "सुव्यवस्थित पाठ योजना",
-          "सम्मानजनक कक्षा वातावरण"
-        ],
-        "teachingPhilosophy": "वे व्यावहारिक शिक्षा, वैज्ञानिक सोच के प्रोत्साहन, और आत्मविश्वास बढ़ाने वाली गतिविधियों के माध्यम से छात्रों को सशक्त बनाने में विश्वास रखती हैं।",
-        "partnerQuote": "ऐसा साथी जो परिवारिक मूल्यों, साझेदारी और भावनात्मक परिपक्वता को सम्मान दे, परंपरा और विकास दोनों को अपनाए।",
-        "contactNumber": "7800848497",
-        "email": "supriya.biodata@example.com",
-        "sectionAcademic": "शैक्षणिक उपलब्धियाँ",
-        "sectionAbout": "परिचय एवं व्यक्तित्व",
-        "sectionFamily": "पारिवारिक पृष्ठभूमि",
-        "sectionInterests": "रुचियाँ एवं शौक",
-        "sectionPartner": "साथी के लिए अपेक्षाएँ",
-        "footerContactPrompt": "विवाह प्रस्ताव हेतु संपर्क करें:",
-        "footerWarmRegards": "यादव परिवार की ओर से हार्दिक शुभकामनाएँ | रामगढ़ कैंट, झारखंड",
-        "familyReference": "सम्मानित सेना पृष्ठभूमि"
-      },
-      "profile": {
-        "fullName": "कुमारी सुप्रिया",
-        "dob": "4 नवंबर 1997",
-        "height": "5 फीट (152 सेमी)",
-        "complexion": "गोरा",
-        "religion": "हिंदू",
-        "caste": "यादव",
-        "profession": "पीजीटी भौतिकी शिक्षिका",
-        "experience": "2+ वर्षों का शिक्षण अनुभव",
-        "motherTongue": "हिन्दी",
-        "maritalStatus": "अविवाहित",
-        "diet": "शाकाहारी",
-        "habits": "धूम्रपान एवं शराब से दूर",
-        "bloodGroup": "बी+",
-        "nationality": "भारतीय",
-        "location": "रामगढ़ कैंट, झारखंड"
-      },
-      "profileLabels": {
-        "dob": "जन्म तिथि",
-        "age": "आयु",
-        "height": "ऊंचाई",
-        "profession": "पेशा",
-        "religionCaste": "धर्म एवं जाति",
-        "location": "निवास स्थान",
-        "complexion": "रंग",
-        "dietHabits": "भोजन एवं आदतें"
-      },
-      "traits": ["अनुशासित", "दयालु", "परिवार-प्रेमी", "आशावादी", "सम्मानजनक", "जिज्ञासु"],
-      "hobbies": [
-        "आध्यात्मिक एवं वैज्ञानिक पुस्तकें पढ़ना",
-        "योग एवं ध्यान",
-        "शास्त्रीय संगीत सुनना",
-        "लेखन एवं कविता",
-        "बागवानी",
-        "पारंपरिक व्यंजन बनाना",
-        "बैडमिंटन खेलना",
-        "प्रकृति में सैर करना"
-      ],
-      "education": {
-        "header": "शैक्षणिक यात्रा",
-        "subheader": "शैक्षणिक उत्कृष्टता, व्यावसायिक प्रशिक्षण और सतत सीखने का एक उत्कृष्ट रिकॉर्ड।",
-        "professionalDevelopment": "व्यावसायिक विकास",
-        "professionalDetails": "कार्यशालाओं और प्रमाणपत्रों के माध्यम से निरंतर कौशल वर्धन, जो शिक्षण प्रभावशीलता और छात्र-भागीदारी को बढ़ाता है।",
-        "certificatesTitle": "प्रमाणपत्र एवं प्रशिक्षण",
-        "records": [
-          {
-            "degree": "एम.एससी (भौतिकी)",
-            "percentage": "62%",
-            "institution": "विनोबा भावे विश्वविद्यालय",
-            "year": "2019",
-            "details": "सैद्धांतिक और व्यावहारिक अनुप्रयोगों पर विशेष ध्यान देते हुए उन्नत भौतिकी अवधारणाओं में विशेषज्ञता।"
-          },
-          {
-            "degree": "बी.एससी (विज्ञान)",
-            "percentage": "75%",
-            "institution": "विनोबा भावे विश्वविद्यालय",
-            "year": "2017",
-            "details": "भौतिकी, गणित और रसायन विज्ञान में सशक्त शैक्षणिक उपलब्धि।"
-          },
-          {
-            "degree": "बैचलर ऑफ एजुकेशन (बी.एड)",
-            "percentage": "80%",
-            "institution": "विनोबा भावे विश्वविद्यालय",
-            "year": "2021",
-            "details": "शैक्षिक मनोविज्ञान, शिक्षण पद्धति और कक्षा प्रबंधन पर केंद्रित।"
-          },
-          {
-            "degree": "इंटरमीडिएट (12वीं)",
-            "percentage": "60%",
-            "institution": "आर्मी पब्लिक स्कूल",
-            "year": "2014",
-            "details": "विज्ञान संकाय में अध्ययन, भौतिकी, गणित और जीवविज्ञान में मजबूत आधार।"
-          },
-          {
-            "degree": "मैट्रिक (10वीं)",
-            "percentage": "82%",
-            "institution": "आर्मी पब्लिक स्कूल",
-            "year": "2012",
-            "details": "विज्ञान, भाषाओं और सामाजिक अध्ययनों में उच्चतम प्रदर्शन।"
-          }
-        ],
-        "certificates": [
-          "प्रमाणित विज्ञान शिक्षक",
-          "रचनात्मक भौतिकी शिक्षण कार्यशाला",
-          "व्यक्तित्व विकास एवं नेतृत्व प्रशिक्षण",
-          "आईसीटी-सक्षम कक्षा निर्देशन",
-          "प्राथमिक उपचार एवं बाल सुरक्षा जागरूकता"
-        ],
-        "achievementsHeader": "शैक्षणिक उपलब्धियाँ",
-        "achievements": [
-          "आर्मी पब्लिक स्कूल से सर्वश्रेष्ठ शिक्षक प्रशंसा पुरस्कार",
-          "प्रयोगात्मक शिक्षा के लिए कक्षा विज्ञान नवाचार कार्यक्रम का नेतृत्व",
-          "आधुनिक भौतिकी शिक्षण में उन्नत शिक्षा-प्रशिक्षण पूर्ण किया"
-        ]
-      },
-      "family": {
-        "header": "पारिवारिक पृष्ठभूमि",
-        "subheader": "सेना के संस्कारों, प्रेम और सम्मान पर आधारित एक अनुशासित एवं स्नेहिल परिवार।",
-        "labels": {
-          "father": "पिताजी",
-          "mother": "माताजी",
-          "siblings": "भाई-बहन",
-          "home": "पारिवारिक घर",
-          "origin": "मूल गाँव",
-          "address": "वर्तमान पता",
-          "values": "पारिवारिक मूल्य"
-        },
-        "details": {
-          "father": {
-            "name": "श्री सारंगधर प्रसाद यादव",
-            "occupation": "हवलदार (सेवानिवृत्त), ईएमई, भारतीय सेना",
-            "qualities": "अनुशासित • सहायक • उत्तरदायी"
-          },
-          "mother": {
-            "name": "श्रीमती गणिता यादव",
-            "occupation": "गृहिणी एवं सामाजिक कार्यकर्ता",
-            "qualities": "सौम्य • देखभाल करने वाली • समाज-प्रिय"
-          },
-          "siblings": ["1 बड़ी बहन (विवाहित)", "1 छोटी बहन", "1 छोटा भाई"],
-          "village": "शालीग्रामी, बिहार",
-          "address": "पुरीमंडप, गोलपार, रामगढ़ कैंट, झारखंड - 829122",
-          "familyValues": ["मजबूत पारिवारिक बंधन", "बड़ों का सम्मान", "सत्यनिष्ठा", "सांस्कृतिक परंपराएँ", "आधुनिक दृष्टिकोण"],
-          "homeDescription": "पारंपरिक मूल्यों से युक्त, प्रकृति के करीब, और सुरक्षित सेना वातावरण में स्थित एक शांत एवं सुव्यवस्थित घर।"
-        },
-        "strengthsHeader": "पारिवारिक विशेषताएँ",
-        "strengths": [
-          "स्नेहिल घर और सेना के मूल्यों का अद्भुत संगम",
-          "शिक्षा और करियर के लिए मजबूत समर्थन",
-          "आधुनिक एवं सांस्कृतिक दृष्टिकोण का संतुलन",
-          "गर्मजोशी से स्वागत करने वाला विस्तारित परिवार"
-        ]
-      },
-      "preferences": {
-        "header": "जीवनसाथी के लिए अपेक्षाएँ",
-        "subheader": "सम्मान, विकास और साझा मूल्यों पर आधारित एक विचारशील साथी।",
-        "keyPreferences": "प्रमुख प्राथमिकताएँ",
-        "compatibility": "जीवनशैली एवं अनुकूलता",
-        "additional": "ऐसा जीवनसाथी जो पारिवारिक मूल्यों, साझेदारी और भावनात्मक परिपक्वता को सम्मान देता हो।",
-        "partnerPreferences": [
-          { "label": "आयु सीमा", "value": "26 – 32 वर्ष" },
-          { "label": "शिक्षा", "value": "स्नातक / स्नातकोत्तर (इंजीनियर / डॉक्टर / अभियंता / व्यवसायी)" },
-          { "label": "पेशा", "value": "सरकारी / निजी / उद्यमी क्षेत्र में स्थिर करियर" },
-          { "label": "स्थान", "value": "कहीं भी, प्राथमिकता झारखंड या आसपास" },
-          { "label": "पारिवारिक मूल्य", "value": "सम्मानजनक, संस्कारी और सामंजस्यपूर्ण" },
-          { "label": "प्रमुख गुण", "value": "ईमानदार, देखभाल करने वाला, सहायक और आधुनिक सोच वाला" }
-        ],
-        "lifestylePreferences": [
-          "परंपरा और विकास के संतुलन में विश्वास",
-          "आपसी सीख और भावनात्मक साहचर्य का समर्थन",
-          "पारिवारिक आयोजनों, त्योहारों और सांस्कृतिक उत्सवों का सम्मान",
-          "स्वस्थ जीवनशैली — धूम्रपान मुक्त, संतुलित सामाजिक आदतें",
-          "सहानुभूति और निरंतरता रखने वाले साथी के लिए खुलापन"
-        ]
-      },
-      "contact": {
-        "header": "संपर्क एवं विवाह संबंधी पूछताछ",
-        "subheader": "विवाह संबंधी चर्चा, पारिवारिक परिचय या अधिक जानकारी के लिए संपर्क करें।",
-        "call": "कॉल / व्हाट्सऐप",
-        "email": "ईमेल",
-        "location": "स्थान",
-        "reference": "पारिवारिक सन्दर्भ",
-        "bestTime": "संपर्क करने का उचित समय",
-        "quickNoteTitle": "एक सूचना",
-        "quickNote": "हम अनुकूलता, आपसी सम्मान और एक मजबूत पारिवारिक आधार को प्राथमिकता देते हैं। हम ईमानदार और सहयोगी परिवारों के विवाह प्रस्तावों का स्वागत करते हैं।",
-        "details": {
-          "phone": "7800848497",
-          "email": "supriya.biodata@example.com",
-          "location": "रामगढ़ कैंट, झारखंड",
-          "reference": "सम्मानित सेना पृष्ठभूमि",
-          "bestTime": "सुबह और शाम के समय"
-        },
-        "message": "हम सम्मानपूर्ण बातचीत और विचारशील परिचय को महत्व देते हैं। संपर्क करते समय कृपया अपनी पारिवारिक पृष्ठभूमि और भविष्य की आकांक्षाएँ अवश्य साझा करें।"
-      }
+        "hi": {
+            "nav": {
+                "home": "मुखपृष्ठ",
+                "education": "शिक्षा",
+                "family": "परिवार",
+                "preferences": "प्राथमिकताएँ",
+                "contact": "संपर्क"
+            },
+            "languageToggle": {
+                "english": "अंग्रेज़ी",
+                "hindi": "हिन्दी"
+            },
+            "home": {
+                "title": "विवाह बायोडाटा",
+                "tagline": "परंपरागत मूल्यों और आधुनिक दृष्टिकोण से युक्त एक स्नेही शिक्षिका, सामंजस्यपूर्ण जीवन-साझेदारी की तलाश में।",
+                "careerTag": "पीजीटी भौतिकी शिक्षिका",
+                "profileTone": "सरल • सुरुचिपूर्ण • समर्पित",
+                "introQuote": "अनुशासित, सौम्य और ज्ञान से प्रेरित।",
+                "aboutHeading": "सुप्रिया के बारे में",
+                "aboutText": "सुप्रिया एक समर्पित पीजीटी भौतिकी शिक्षिका हैं, जिनका लक्ष्य युवा मनों को सही दिशा देना है। सेना पृष्ठभूमि के परिवार में पली-बढ़ी, उनमें अनुशासन, ईमानदारी और अपनापन कूट-कूट कर भरा है। उनका व्यक्तित्व सरलता और सकारात्मक सोच का प्रतीक है। वे आजीवन सीखने, दयालुता और मजबूत पारिवारिक बंधनों में विश्वास रखती हैं। उनका दृष्टिकोण आधुनिक है, परंतु वे पारंपरिक रीति-रिवाजों का गहरा सम्मान करती हैं। वे आपसी सम्मान, भावनात्मक सहयोग और एक सहयोगात्मक, प्रगतिशील जीवन-शैली पर आधारित विवाह की कामना करती हैं।",
+                "careerSummary": "एक अनुभवी शिक्षिका जो शैक्षणिक अवधारणाओं को वास्तविक जीवन के उदाहरणों से जोड़ती है, और हर छात्र में जिज्ञासा व सीखने की ललक पैदा करती है।",
+                "coreStrengthsLabel": "प्रमुख क्षमताएँ",
+                "careerSummaryLabel": "कार्य-सारांश",
+                "coreStrengths": [
+                    "भौतिकी में गहन विषय-ज्ञान",
+                    "छात्र-केंद्रित शिक्षण शैली",
+                    "प्रभावी संवाद कौशल",
+                    "सुव्यवस्थित पाठ योजना",
+                    "सम्मानजनक कक्षा वातावरण"
+                ],
+                "teachingPhilosophy": "वे व्यावहारिक शिक्षा, वैज्ञानिक सोच के प्रोत्साहन, और आत्मविश्वास बढ़ाने वाली गतिविधियों के माध्यम से छात्रों को सशक्त बनाने में विश्वास रखती हैं।",
+                "partnerQuote": "ऐसा साथी जो परिवारिक मूल्यों, साझेदारी और भावनात्मक परिपक्वता को सम्मान दे, परंपरा और विकास दोनों को अपनाए।",
+                "contactNumber": "+91-7800848497",
+                "email": "supriya94111@gmail.com",
+                "sectionAcademic": "शैक्षणिक उपलब्धियाँ",
+                "sectionAbout": "परिचय एवं व्यक्तित्व",
+                "sectionFamily": "पारिवारिक पृष्ठभूमि",
+                "sectionInterests": "रुचियाँ एवं शौक",
+                "sectionPartner": "साथी के लिए अपेक्षाएँ",
+                "footerContactPrompt": "विवाह प्रस्ताव हेतु संपर्क करें:",
+                "footerWarmRegards": "यादव परिवार की ओर से हार्दिक शुभकामनाएँ",
+                "familyReference": "सम्मानित सेना पृष्ठभूमि"
+            },
+            "profile": {
+                "fullName": "कुमारी सुप्रिया",
+                "dob": "4 नवंबर 1997",
+                "height": "5 फीट (152 सेमी)",
+                "complexion": "गोरा",
+                "religion": "हिंदू",
+                "caste": "यादव",
+                "profession": "पीजीटी भौतिकी शिक्षिका",
+                "experience": "2+ वर्षों का शिक्षण अनुभव",
+                "motherTongue": "हिन्दी",
+                "maritalStatus": "अविवाहित",
+                "diet": "शाकाहारी",
+                "habits": "धूम्रपान एवं शराब से दूर",
+                "bloodGroup": "बी+",
+                "nationality": "भारतीय",
+                "location": "रामगढ़ कैंट, झारखंड"
+            },
+            "profileLabels": {
+                "dob": "जन्म तिथि",
+                "age": "आयु",
+                "height": "ऊंचाई",
+                "profession": "पेशा",
+                "religionCaste": "धर्म एवं जाति",
+                "location": "निवास स्थान",
+                "complexion": "रंग",
+                "dietHabits": "भोजन एवं आदतें"
+            },
+            "traits": [
+                "अनुशासित",
+                "दयालु",
+                "परिवार-प्रेमी",
+                "आशावादी",
+                "सम्मानजनक",
+                "जिज्ञासु"
+            ],
+            "hobbies": [
+                "आध्यात्मिक एवं वैज्ञानिक पुस्तकें पढ़ना",
+                "योग एवं ध्यान",
+                "शास्त्रीय संगीत सुनना",
+                "लेखन एवं कविता",
+                "बागवानी",
+                "पारंपरिक व्यंजन बनाना",
+                "बैडमिंटन खेलना",
+                "प्रकृति में सैर करना"
+            ],
+            "education": {
+                "header": "शैक्षणिक यात्रा",
+                "subheader": "शैक्षणिक उत्कृष्टता, व्यावसायिक प्रशिक्षण और सतत सीखने का एक उत्कृष्ट रिकॉर्ड।",
+                "professionalDevelopment": "व्यावसायिक विकास",
+                "professionalDetails": "कार्यशालाओं और प्रमाणपत्रों के माध्यम से निरंतर कौशल वर्धन, जो शिक्षण प्रभावशीलता और छात्र-भागीदारी को बढ़ाता है।",
+                "certificatesTitle": "प्रमाणपत्र एवं प्रशिक्षण",
+                "records": [
+                    {
+                        "degree": "बैचलर ऑफ एजुकेशन (बी.एड)",
+                        "percentage": "80%",
+                        "institution": "विनोबा भावे विश्वविद्यालय",
+                        "year": "2021",
+                        "details": "शैक्षिक मनोविज्ञान, शिक्षण पद्धति और कक्षा प्रबंधन पर केंद्रित।"
+                    },
+                    {
+                        "degree": "एम.एससी (भौतिकी)",
+                        "percentage": "62%",
+                        "institution": "विनोबा भावे विश्वविद्यालय",
+                        "year": "2019",
+                        "details": "सैद्धांतिक और व्यावहारिक अनुप्रयोगों पर विशेष ध्यान देते हुए उन्नत भौतिकी अवधारणाओं में विशेषज्ञता।"
+                    },
+                    {
+                        "degree": "बी.एससी (विज्ञान)",
+                        "percentage": "75%",
+                        "institution": "विनोबा भावे विश्वविद्यालय",
+                        "year": "2017",
+                        "details": "भौतिकी, गणित और रसायन विज्ञान में सशक्त शैक्षणिक उपलब्धि।"
+                    },
+                    {
+                        "degree": "इंटरमीडिएट (12वीं)",
+                        "percentage": "60%",
+                        "institution": "आर्मी पब्लिक स्कूल",
+                        "year": "2014",
+                        "details": "विज्ञान संकाय में अध्ययन, भौतिकी, गणित और जीवविज्ञान में मजबूत आधार।"
+                    },
+                    {
+                        "degree": "मैट्रिक (10वीं)",
+                        "percentage": "82%",
+                        "institution": "आर्मी पब्लिक स्कूल",
+                        "year": "2012",
+                        "details": "विज्ञान, भाषाओं और सामाजिक अध्ययनों में उच्चतम प्रदर्शन।"
+                    }
+                ],
+                "certificates": [
+                    "प्रमाणित विज्ञान शिक्षक",
+                    "रचनात्मक भौतिकी शिक्षण कार्यशाला",
+                    "व्यक्तित्व विकास एवं नेतृत्व प्रशिक्षण",
+                    "आईसीटी-सक्षम कक्षा निर्देशन",
+                    "प्राथमिक उपचार एवं बाल सुरक्षा जागरूकता"
+                ],
+                "achievementsHeader": "शैक्षणिक उपलब्धियाँ",
+                "achievements": [
+                    "आर्मी पब्लिक स्कूल से सर्वश्रेष्ठ शिक्षक प्रशंसा पुरस्कार",
+                    "प्रयोगात्मक शिक्षा के लिए कक्षा विज्ञान नवाचार कार्यक्रम का नेतृत्व",
+                    "आधुनिक भौतिकी शिक्षण में उन्नत शिक्षा-प्रशिक्षण पूर्ण किया"
+                ]
+            },
+            "family": {
+                "header": "पारिवारिक पृष्ठभूमि",
+                "subheader": "सेना के संस्कारों, प्रेम और सम्मान पर आधारित एक अनुशासित एवं स्नेहिल परिवार।",
+                "labels": {
+                    "father": "पिताजी",
+                    "mother": "माताजी",
+                    "siblings": "भाई-बहन",
+                    "home": "पारिवारिक घर",
+                    "origin": "मूल गाँव",
+                    "address": "वर्तमान पता",
+                    "values": "पारिवारिक मूल्य"
+                },
+                "details": {
+                    "father": {
+                        "name": "श्री सारंगधर प्रसाद यादव",
+                        "occupation": "हवलदार (सेवानिवृत्त), ईएमई, भारतीय सेना",
+                        "qualities": "अनुशासित • सहायक • उत्तरदायी"
+                    },
+                    "mother": {
+                        "name": "श्रीमती गणिता यादव",
+                        "occupation": "गृहिणी एवं सामाजिक कार्यकर्ता",
+                        "qualities": "सौम्य • देखभाल करने वाली • समाज-प्रिय"
+                    },
+                    "siblings": [
+                        "1 बड़ी बहन (विवाहित)",
+                        "1 छोटी बहन",
+                        "1 छोटा भाई"
+                    ],
+                    "village": "शालीग्रामी, बिहार",
+                    "address": "पुरीमंडप, गोलपार, रामगढ़ कैंट, झारखंड - 829122",
+                    "familyValues": [
+                        "मजबूत पारिवारिक बंधन",
+                        "बड़ों का सम्मान",
+                        "सत्यनिष्ठा",
+                        "सांस्कृतिक परंपराएँ",
+                        "आधुनिक दृष्टिकोण"
+                    ],
+                    "homeDescription": "पारंपरिक मूल्यों से युक्त, प्रकृति के करीब, और सुरक्षित सेना वातावरण में स्थित एक शांत एवं सुव्यवस्थित घर।"
+                },
+                "strengthsHeader": "पारिवारिक विशेषताएँ",
+                "strengths": [
+                    "स्नेहिल घर और सेना के मूल्यों का अद्भुत संगम",
+                    "शिक्षा और करियर के लिए मजबूत समर्थन",
+                    "आधुनिक एवं सांस्कृतिक दृष्टिकोण का संतुलन",
+                    "गर्मजोशी से स्वागत करने वाला विस्तारित परिवार"
+                ]
+            },
+            "preferences": {
+                "header": "जीवनसाथी के लिए अपेक्षाएँ",
+                "subheader": "सम्मान, विकास और साझा मूल्यों पर आधारित एक विचारशील साथी।",
+                "keyPreferences": "प्रमुख प्राथमिकताएँ",
+                "compatibility": "जीवनशैली एवं अनुकूलता",
+                "additional": "ऐसा जीवनसाथी जो पारिवारिक मूल्यों, साझेदारी और भावनात्मक परिपक्वता को सम्मान देता हो।",
+                "partnerPreferences": [
+                    {
+                        "label": "आयु सीमा",
+                        "value": "वर्तमान आयु से 0 से 5 वर्ष तक उपयुक्त जीवनसाथी"
+                    },
+                    {
+                        "label": "शिक्षा",
+                        "value": "स्नातक / स्नातकोत्तर (इंजीनियर / डॉक्टर / अभियंता / व्यवसायी)"
+                    },
+                    {
+                        "label": "पेशा",
+                        "value": "सरकारी / निजी / उद्यमी क्षेत्र में स्थिर करियर"
+                    },
+                    {
+                        "label": "स्थान",
+                        "value": "कहीं भी, प्राथमिकता झारखंड या आसपास"
+                    },
+                    {
+                        "label": "पारिवारिक मूल्य",
+                        "value": "सम्मानजनक, संस्कारी और सामंजस्यपूर्ण"
+                    },
+                    {
+                        "label": "प्रमुख गुण",
+                        "value": "ईमानदार, देखभाल करने वाला, सहायक और आधुनिक सोच वाला"
+                    }
+                ],
+                "lifestylePreferences": [
+                    "परंपरा और विकास के संतुलन में विश्वास",
+                    "आपसी सीख और भावनात्मक साहचर्य का समर्थन",
+                    "पारिवारिक आयोजनों, त्योहारों और सांस्कृतिक उत्सवों का सम्मान",
+                    "स्वस्थ जीवनशैली — धूम्रपान मुक्त, संतुलित सामाजिक आदतें",
+                    "सहानुभूति और निरंतरता रखने वाले साथी के लिए खुलापन"
+                ]
+            },
+            "contact": {
+                "header": "संपर्क एवं विवाह संबंधी पूछताछ",
+                "subheader": "विवाह संबंधी चर्चा, पारिवारिक परिचय या अधिक जानकारी के लिए संपर्क करें।",
+                "call": "कॉल / व्हाट्सऐप",
+                "email": "ईमेल",
+                "location": "स्थान",
+                "reference": "पारिवारिक सन्दर्भ",
+                "bestTime": "संपर्क करने का उचित समय",
+                "quickNoteTitle": "एक सूचना",
+                "quickNote": "हम अनुकूलता, आपसी सम्मान और एक मजबूत पारिवारिक आधार को प्राथमिकता देते हैं। हम ईमानदार और सहयोगी परिवारों के विवाह प्रस्तावों का स्वागत करते हैं।",
+                "details": {
+                    "phone": "+91-7800848497",
+                    "email": "supriya94111@gmail.com",
+                    "location": "रामगढ़ कैंट, झारखंड",
+                    "reference": "सम्मानित सेना पृष्ठभूमि",
+                    "bestTime": "सुबह और शाम के समय"
+                },
+                "message": "हम सम्मानपूर्ण बातचीत और विचारशील परिचय को महत्व देते हैं। संपर्क करते समय कृपया अपनी पारिवारिक पृष्ठभूमि और भविष्य की आकांक्षाएँ अवश्य साझा करें।"
+            }
+        }
     }
-  }
 }
