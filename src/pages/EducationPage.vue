@@ -47,7 +47,7 @@
                 <path d="M2 17L12 22L22 17" stroke="#9F1239"/>
                 <path d="M2 12L12 17L22 12" stroke="#9F1239"/>
               </svg>
-              <h1 class="font-serif bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-4xl font-extrabold tracking-wide text-transparent md:text-5xl">
+              <h1 class="font-serif bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-4xl font-extrabold tracking-wide text-transparent md:text-5xl p-3">
                 {{ translations.education.header }}
               </h1>
               <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#9F1239" stroke-width="1.2">

@@ -23,15 +23,12 @@ const router = createRouter({
 })
 
 router.beforeEach((_to, _from, next) => {
-  isLoading.value = true
-  const delay = Math.floor(Math.random() * 2000) + 1
-  setTimeout(() => next(), delay)
+  isLoading.value = true;
+  next();
 })
 
 router.afterEach(() => {
-  setTimeout(() => {
-    isLoading.value = false
-  }, 100)
+  isLoading.value = false;
 })
 
 export default router

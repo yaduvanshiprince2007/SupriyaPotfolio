@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from "vue";
 import godiamge from "../assets/ganesha_PNG27.png";
-import image from "../assets/image.jpg";
+import image from "../assets/image.jpeg";
 import { useLocale } from "../composables/useLocale";
 
 const { translations } = useLocale();
@@ -233,7 +233,7 @@ const contactEmail = computed(() => translations.value.home.email);
                 />
               </svg>
               <h1
-                class="font-serif bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-5xl font-extrabold tracking-wide text-transparent md:text-6xl lg:text-7xl"
+                class="font-serif p-4 bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-5xl font-extrabold tracking-wide text-transparent md:text-6xl lg:text-7xl"
               >
                 {{ translations.home.title }}
               </h1>

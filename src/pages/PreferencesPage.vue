@@ -46,7 +46,7 @@
                 <path d="M12 2L15 8.5L22 9.5L17 14L18.5 21L12 17.5L5.5 21L7 14L2 9.5L9 8.5L12 2Z" stroke="currentColor" fill="#FCE7F3" fill-opacity="0.4"/>
                 <circle cx="12" cy="11" r="2" fill="#9F1239" fill-opacity="0.5"/>
               </svg>
-              <h1 class="font-serif bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-4xl font-extrabold tracking-wide text-transparent md:text-5xl">
+              <h1 class="font-serif p-3 bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-4xl font-extrabold tracking-wide text-transparent md:text-5xl">
                 {{ translations.preferences.header }}
               </h1>
               <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#9F1239" stroke-width="1.2">
