@@ -5,7 +5,7 @@ import EducationPage from '../pages/EducationPage.vue'
 import FamilyPage from '../pages/FamilyPage.vue'
 import PreferencesPage from '../pages/PreferencesPage.vue'
 import ContactPage from '../pages/ContactPage.vue'
-import { isLoading } from '../composables/useLoading'
+import { hideLoading, showLoading } from '../composables/useLoading'
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -25,12 +25,12 @@ const router = createRouter({
 })
 
 router.beforeEach((_to, _from, next) => {
-  isLoading.value = true;
+  showLoading()
   next();
 })
 
 router.afterEach(() => {
-  isLoading.value = false;
+  hideLoading(500)
 })
 
 export default router

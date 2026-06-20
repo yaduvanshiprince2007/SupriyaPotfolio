@@ -43,7 +43,7 @@ import ganesha from './assets/ganesha_PNG27.png'
         
         <!-- Loading Text -->
         <p class="mt-6 text-sm text-red-600">
-          Loading portfolio...
+          Loading marriage biodata...
         </p>
         
         <!-- Animated Loading Dots -->

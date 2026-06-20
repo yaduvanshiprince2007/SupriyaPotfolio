@@ -211,6 +211,15 @@ const contactEmail = computed(() => translations.value.home.email);
         <div class="p-6 md:p-10 lg:p-12">
           <!-- === HEADER SECTION === -->
           <div class="mb-12 text-center">
+            <div class="mb-6 flex justify-center">
+              <div class="rounded-full border border-red-200/70 bg-white/70 p-3 shadow-lg shadow-red-200/30 backdrop-blur-sm">
+                <img
+                  :src="godiamge"
+                  alt="Shree Ganesh"
+                  class="h-20 w-20 rounded-full object-cover md:h-24 md:w-24"
+                />
+              </div>
+            </div>
             <div class="mb-4 flex items-center justify-center gap-3">
               <svg
                 width="36"
