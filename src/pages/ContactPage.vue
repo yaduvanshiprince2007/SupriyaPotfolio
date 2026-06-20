@@ -8,7 +8,7 @@
       <div class="absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-50/20 blur-3xl"></div>
     </div>
 
-    <div class="relative mx-auto max-w-6xl">
+    <div class="relative mx-auto">
       
       <!-- Main Contact Card with Glass Effect -->
       <div class="overflow-hidden rounded-[2rem] border border-red-200/60 bg-white/30 shadow-2xl backdrop-blur-xl transition-all duration-300">
@@ -40,28 +40,30 @@
         <div class="p-6 md:p-10 lg:p-12">
           
           <!-- Header Section in red Theme -->
-          <div class="mb-10 text-center">
-            <div class="mb-4 flex items-center justify-center gap-3">
-              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#9F1239" stroke-width="1.2">
-                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" fill="#FCE7F3" fill-opacity="0.4"/>
-                <path d="M22 6L12 13L2 6" stroke="#9F1239"/>
-              </svg>
-              <h1 class="font-serif bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-4xl font-extrabold tracking-wide text-transparent md:text-5xl p-3">
-                {{ translations.contact.header }}
-              </h1>
-              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#9F1239" stroke-width="1.2">
-                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" fill="#FCE7F3" fill-opacity="0.4"/>
-                <path d="M22 6L12 13L2 6" stroke="#9F1239"/>
-              </svg>
+          <GlassPanel class="mb-10">
+            <div class="text-center">
+              <div class="mb-4 flex items-center justify-center gap-3">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#9F1239" stroke-width="1.2">
+                  <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" fill="#FCE7F3" fill-opacity="0.4"/>
+                  <path d="M22 6L12 13L2 6" stroke="#9F1239"/>
+                </svg>
+                <h1 class="font-serif bg-gradient-to-r from-red-700 via-red-600 to-red-800 bg-clip-text text-4xl font-extrabold tracking-wide text-transparent md:text-5xl p-3">
+                  {{ translations.contact.header }}
+                </h1>
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#9F1239" stroke-width="1.2">
+                  <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" fill="#FCE7F3" fill-opacity="0.4"/>
+                  <path d="M22 6L12 13L2 6" stroke="#9F1239"/>
+                </svg>
+              </div>
+              
+              <div class="mx-auto max-w-2xl">
+                <p class="text-base italic text-red-700/80 md:text-lg">
+                  {{ translations.contact.subheader }}
+                </p>
+                <div class="mx-auto mt-4 h-px w-16 bg-gradient-to-r from-red-300 to-red-600"></div>
+              </div>
             </div>
-            
-            <div class="mx-auto max-w-2xl">
-              <p class="text-base italic text-red-700/80 md:text-lg">
-                {{ translations.contact.subheader }}
-              </p>
-              <div class="mx-auto mt-4 h-px w-16 bg-gradient-to-r from-red-300 to-red-600"></div>
-            </div>
-          </div>
+          </GlassPanel>
 
           <!-- Main Content Grid -->
           <div class="grid gap-8 lg:grid-cols-2">
@@ -209,6 +211,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useLocale } from '../composables/useLocale'
+import GlassPanel from '../components/GlassPanel.vue'
 
 const { translations } = useLocale()
 

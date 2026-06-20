@@ -8,6 +8,7 @@
         "en": {
             "nav": {
                 "home": "Home",
+                "achievements": "Achievements",
                 "education": "Education",
                 "family": "Family",
                 "preferences": "Preferences",
@@ -18,7 +19,7 @@
                 "hindi": "Hindi"
             },
             "home": {
-                "title": "Marriage Biodata",
+                "title": "Portfolio",
                 "tagline": "A graceful educator rooted in tradition yet embracing modernity, seeking a harmonious and respectful life partnership.",
                 "careerTag": "Physics Educator",
                 "profileTone": "Simple • Elegant • Devoted",
@@ -150,6 +151,65 @@
                     "Completed advanced pedagogy training in modern physics instruction"
                 ]
             },
+            "achievements": {
+                "header": "Professional Achievements",
+                "subheader": "A dedicated Physics educator who is STET qualified and serves as a CBSE evaluator, with a record of academic excellence and classroom leadership.",
+                "profileTag": "Teacher Profile",
+                "profileName": "Physics Teacher | STET Qualified | CBSE Evaluator",
+                "profileSummary": "Committed to evidence-based teaching, strong student outcomes, and disciplined academic practice in every classroom she leads.",
+                "stats": [
+                    {
+                        "label": "Qualification",
+                        "value": "STET Qualified"
+                    },
+                    {
+                        "label": "CBSE Role",
+                        "value": "CBSE Evaluator"
+                    },
+                    {
+                        "label": "Subject",
+                        "value": "Physics"
+                    },
+                    {
+                        "label": "Focus",
+                        "value": "Student Success"
+                    }
+                ],
+                "highlightsTitle": "Key Highlights",
+                "highlights": [
+                    {
+                        "title": "STET Qualified",
+                        "description": "Recognized through STET-level qualification for teaching excellence and subject mastery."
+                    },
+                    {
+                        "title": "CBSE Evaluator",
+                        "description": "Experienced in assessment practices that support fair, accurate, and high-quality evaluation."
+                    },
+                    {
+                        "title": "Physics Educator",
+                        "description": "Builds conceptual clarity through practical demonstrations, examples, and student-friendly explanations."
+                    },
+                    {
+                        "title": "Academic Discipline",
+                        "description": "Maintains a structured, calm, and result-oriented classroom environment."
+                    }
+                ],
+                "credentialsTitle": "Credentials & Strengths",
+                "credentials": [
+                    "STET-qualified Physics teacher with a strong academic background",
+                    "CBSE evaluator with an understanding of quality assessment standards",
+                    "Focused on conceptual teaching, classroom discipline, and student confidence",
+                    "Known for clear communication and consistent academic support"
+                ],
+                "evaluatorTitle": "Assessment Expertise",
+                "evaluatorNotes": [
+                    "Understands CBSE evaluation expectations and marking discipline",
+                    "Applies a fair, accurate, and student-aware assessment mindset",
+                    "Brings evaluation experience that strengthens academic credibility"
+                ],
+                "recognitionTitle": "Professional Recognition",
+                "recognitionText": "This page reflects a teacher profile built on qualification, accountability, subject expertise, and a sincere commitment to education."
+            },
             "family": {
                 "header": "Family Background",
                 "subheader": "A nurturing and principled family environment, deeply rooted in army values of love, respect, and integrity.",
@@ -260,6 +320,7 @@
         "hi": {
             "nav": {
                 "home": "मुखपृष्ठ",
+                "achievements": "उपलब्धियाँ",
                 "education": "शिक्षा",
                 "family": "परिवार",
                 "preferences": "प्राथमिकताएँ",
@@ -270,7 +331,7 @@
                 "hindi": "हिन्दी"
             },
             "home": {
-                "title": "विवाह बायोडाटा",
+                "title": "पोर्टफोलियो",
                 "tagline": "परंपरागत मूल्यों और आधुनिक दृष्टिकोण से युक्त एक स्नेही शिक्षिका, सामंजस्यपूर्ण जीवन-साझेदारी की तलाश में।",
                 "careerTag": "पीजीटी भौतिकी शिक्षिका",
                 "profileTone": "सरल • सुरुचिपूर्ण • समर्पित",
@@ -401,6 +462,65 @@
                     "प्रयोगात्मक शिक्षा के लिए कक्षा विज्ञान नवाचार कार्यक्रम का नेतृत्व",
                     "आधुनिक भौतिकी शिक्षण में उन्नत शिक्षा-प्रशिक्षण पूर्ण किया"
                 ]
+            },
+            "achievements": {
+                "header": "व्यावसायिक उपलब्धियाँ",
+                "subheader": "एक समर्पित भौतिकी शिक्षिका जो राज्य-योग्य हैं और CBSE मूल्यांकनकर्ता के रूप में कार्य करती हैं, तथा शैक्षणिक उत्कृष्टता और कक्षा-नेतृत्व का मजबूत रिकॉर्ड रखती हैं।",
+                "profileTag": "शिक्षिका प्रोफ़ाइल",
+                "profileName": "भौतिकी शिक्षिका | राज्य-योग्य | CBSE मूल्यांकनकर्ता",
+                "profileSummary": "साक्ष्य-आधारित शिक्षण, मजबूत छात्र-परिणाम और अनुशासित शैक्षणिक अभ्यास के प्रति समर्पित।",
+                "stats": [
+                    {
+                        "label": "योग्यता",
+                        "value": "राज्य-योग्य"
+                    },
+                    {
+                        "label": "CBSE भूमिका",
+                        "value": "CBSE मूल्यांकनकर्ता"
+                    },
+                    {
+                        "label": "विषय",
+                        "value": "भौतिकी"
+                    },
+                    {
+                        "label": "केंद्र",
+                        "value": "छात्र सफलता"
+                    }
+                ],
+                "highlightsTitle": "मुख्य बिंदु",
+                "highlights": [
+                    {
+                        "title": "राज्य-योग्य",
+                        "description": "शिक्षण उत्कृष्टता और विषय-निपुणता के लिए राज्य-स्तरीय योग्यता से सम्मानित।"
+                    },
+                    {
+                        "title": "CBSE मूल्यांकनकर्ता",
+                        "description": "निष्पक्ष, सटीक और गुणवत्तापूर्ण मूल्यांकन को समर्थन देने वाली परीक्षा-पद्धति में अनुभव।"
+                    },
+                    {
+                        "title": "भौतिकी शिक्षिका",
+                        "description": "व्यावहारिक उदाहरणों, प्रयोगों और सरल व्याख्या के माध्यम से अवधारणात्मक स्पष्टता विकसित करती हैं।"
+                    },
+                    {
+                        "title": "शैक्षणिक अनुशासन",
+                        "description": "संरचित, शांत और परिणाम-उन्मुख कक्षा वातावरण बनाए रखती हैं।"
+                    }
+                ],
+                "credentialsTitle": "योग्यता एवं क्षमताएँ",
+                "credentials": [
+                    "मजबूत शैक्षणिक पृष्ठभूमि वाली राज्य-योग्य भौतिकी शिक्षिका",
+                    "गुणवत्तापूर्ण मूल्यांकन मानकों की समझ रखने वाली CBSE मूल्यांकनकर्ता",
+                    "अवधारणात्मक शिक्षण, कक्षा अनुशासन और छात्र-आत्मविश्वास पर केंद्रित",
+                    "स्पष्ट संवाद और निरंतर शैक्षणिक सहयोग के लिए जानी जाती हैं"
+                ],
+                "evaluatorTitle": "मूल्यांकन विशेषज्ञता",
+                "evaluatorNotes": [
+                    "CBSE मूल्यांकन अपेक्षाओं और अंकन अनुशासन की समझ",
+                    "निष्पक्ष, सटीक और छात्र-संवेदी मूल्यांकन दृष्टिकोण का उपयोग",
+                    "मूल्यांकन अनुभव जो शैक्षणिक विश्वसनीयता को मजबूत करता है"
+                ],
+                "recognitionTitle": "व्यावसायिक सम्मान",
+                "recognitionText": "यह पृष्ठ योग्यता, जवाबदेही, विषय-विशेषज्ञता और शिक्षा के प्रति सच्ची प्रतिबद्धता पर आधारित शिक्षिका प्रोफ़ाइल को दर्शाता है।"
             },
             "family": {
                 "header": "पारिवारिक पृष्ठभूमि",

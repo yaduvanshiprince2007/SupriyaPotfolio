@@ -16,7 +16,7 @@ export default defineConfig({
       manifest: {
         name: 'Supriya Portfolio',
         short_name: 'Supriya',
-        description: 'Marriage biodata profile of Supriya. Modern, elegant and PWA-ready biodata for alliance inquiries.',
+        description: 'portfolio of Supriya. Modern, elegant and PWA-ready biodata for alliance inquiries.',
         theme_color: '#f9e4f5',
         background_color: '#fff7fb',
         display: 'standalone',

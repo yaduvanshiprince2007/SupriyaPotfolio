@@ -8,7 +8,7 @@
       <div class="absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-50/20 blur-3xl"></div>
     </div>
 
-    <div class="relative mx-auto max-w-6xl">
+    <div class="relative mx-auto">
       
       <!-- Main Family Card with Glass Effect -->
       <div class="overflow-hidden rounded-[2rem] border border-red-200/60 bg-white/30 shadow-2xl backdrop-blur-xl transition-all duration-300">
@@ -40,8 +40,9 @@
         <div class="p-6 md:p-10 lg:p-12">
           
           <!-- Header Section in red Theme -->
-          <div class="mb-10 text-center">
-            <div class="mb-4 flex items-center justify-center gap-3">
+          <GlassPanel class="mb-10">
+            <div class="text-center">
+              <div class="mb-4 flex items-center justify-center gap-3">
               <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#9F1239" stroke-width="1.2">
                 <path d="M3 9L12 3L21 9L12 15L3 9Z" stroke="currentColor" fill="#FCE7F3" fill-opacity="0.4"/>
                 <path d="M5 10.5V17L12 21L19 17V10.5" stroke="#9F1239"/>
@@ -65,7 +66,8 @@
               </p>
               <div class="mx-auto mt-4 h-px w-16 bg-gradient-to-r from-red-300 to-red-600"></div>
             </div>
-          </div>
+            </div>
+          </GlassPanel>
 
           <!-- Main Content Grid -->
           <div class="grid gap-8 lg:grid-cols-2">
@@ -248,6 +250,7 @@
 
 <script setup lang="ts">
 import { useLocale } from '../composables/useLocale'
+import GlassPanel from '../components/GlassPanel.vue'
 
 const { translations } = useLocale()
 </script>

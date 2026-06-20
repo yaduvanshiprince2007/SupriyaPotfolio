@@ -3,6 +3,7 @@ import { computed } from "vue";
 import godiamge from "../assets/ganesha_PNG27.png";
 import image from "../assets/image.jpeg";
 import { useLocale } from "../composables/useLocale";
+import GlassPanel from "../components/GlassPanel.vue";
 
 const { translations } = useLocale();
 
@@ -116,7 +117,7 @@ const contactEmail = computed(() => translations.value.home.email);
     ></div>
 
     <!-- Main Container -->
-    <div class="relative z-10 mx-auto px-4 py-6 md:py-12 max-w-6xl">
+    <div class="relative z-10 mx-auto px-4 py-6 md:py-12">
       <!-- Main Biodata Card -->
       <div
         class="overflow-hidden rounded-[2.5rem] border border-red-200/60 bg-white/30 shadow-2xl backdrop-blur-xl transition-all duration-300"
@@ -276,9 +277,10 @@ const contactEmail = computed(() => translations.value.home.email);
           </div>
 
           <!-- === PROFILE CARD === -->
-          <div
-            class="mb-12 overflow-hidden rounded-2xl border border-red-200/60 bg-gradient-to-br from-white/90 via-red-50/50 to-white/90 shadow-xl backdrop-blur-sm"
-          >
+          <GlassPanel class="mb-12">
+            <div
+              class="overflow-hidden rounded-2xl bg-transparent shadow-none"
+            >
             <div class="grid gap-6 p-6 md:grid-cols-[280px_1fr] md:p-8">
               <!-- Avatar Section -->
               <div class="flex flex-col items-center">
@@ -332,7 +334,8 @@ const contactEmail = computed(() => translations.value.home.email);
                 </div>
               </div>
             </div>
-          </div>
+            </div>
+          </GlassPanel>
 
           <!-- === CAREER & STRENGTHS === -->
           <div class="mb-12 grid gap-6 md:grid-cols-2">

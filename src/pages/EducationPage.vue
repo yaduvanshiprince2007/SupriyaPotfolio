@@ -8,7 +8,7 @@
       <div class="absolute left-1/2 top-1/2 h-96 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-50/20 blur-3xl"></div>
     </div>
 
-    <div class="relative mx-auto max-w-6xl">
+    <div class="relative mx-auto">
       
       <!-- Main Education Card with Glass Effect -->
       <div class="overflow-hidden rounded-[2rem] border border-red-200/60 bg-white/30 shadow-2xl backdrop-blur-xl transition-all duration-300">

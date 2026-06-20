@@ -10,6 +10,7 @@ const { locale, translations, setLocale } = useLocale();
 
 const navItems = computed(() => [
   { label: translations.value.nav.home, path: "/" },
+  { label: translations.value.nav.achievements, path: "/achievements" },
   { label: translations.value.nav.education, path: "/education" },
   { label: translations.value.nav.family, path: "/family" },
   { label: translations.value.nav.preferences, path: "/preferences" },
@@ -29,7 +30,7 @@ function toggleMenu() {
 <template>
   <header class="fixed inset-x-0 top-0 z-50 px-4 py-3 sm:px-6">
     <div
-      class="mx-auto flex max-w-7xl items-center justify-between gap-3 rounded-[2rem] border border-red-200/60 bg-white/30 px-4 py-2 shadow-2xl backdrop-blur-xl transition-all duration-300"
+      class="mx-auto flex max-w-7xl items-center justify-between gap-3 rounded-2xl border border-red-200/60 bg-white/30 px-4 py-2 shadow-2xl backdrop-blur-xl transition-all duration-300"
     >
       <!-- Logo Section -->
       <div class="flex items-center gap-3">
@@ -44,10 +45,10 @@ function toggleMenu() {
         </div>
         <div>
           <p class="text-xs font-semibold uppercase tracking-[0.3em] text-red-600">
-            Supriya
+            JAI SHREE GANESH
           </p>
           <p class="text-[10px] font-medium uppercase tracking-[0.2em] text-red-400">
-            Marriage Biodata
+            
           </p>
         </div>
       </div>
@@ -75,7 +76,7 @@ function toggleMenu() {
           v-for="btn in languageButtons"
           :key="btn.code"
           @click="setLocale(btn.code)"
-          class="rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-300"
+          class="rounded-xl px-4 py-2 text-sm font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-red-300"
           :class="
             locale === btn.code
               ? 'bg-gradient-to-r from-red-500 to-red-600 text-white shadow-md shadow-red-300/30'
@@ -145,7 +146,7 @@ function toggleMenu() {
               v-for="btn in languageButtons"
               :key="btn.code"
               @click="setLocale(btn.code)"
-              class="rounded-full px-5 py-2 text-sm font-semibold transition-all duration-200"
+              class="rounded-xl px-5 py-2 text-sm font-semibold transition-all duration-200"
               :class="
                 locale === btn.code
                   ? 'bg-gradient-to-r from-red-500 to-red-600 text-white shadow-md'
